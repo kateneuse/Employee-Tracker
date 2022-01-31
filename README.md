@@ -8,3 +8,8 @@ With these options, you'll be able to view, add, delete and update employees, ma
 
 INSTALLATION:
 To install, open the integrated terminal and type node server.js
+
+
+WALKTHROUGH VIDEO:
+
+https://drive.google.com/file/d/1hr6MoRDBOCVSox4iB3yoUIz3M_3f_cjt/view?usp=sharing
