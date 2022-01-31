@@ -18,11 +18,11 @@ CREATE TABLE role (
   department_id INT,
   FOREIGN KEY (department_id) REFERENCES department(id)
 );
--- EMPLOYEE  TABLE ----
+-- employee  TABLE ----
 CREATE TABLE employee (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  first_name VARCHAR(30),
-  last_name VARCHAR(30),
+  first_name VARCHAR(30) NOT NULL,
+  last_name VARCHAR(30) NOT NULL,
   manager_id INT,
   role_id INT,
   FOREIGN KEY (role_id) REFERENCES role(id),

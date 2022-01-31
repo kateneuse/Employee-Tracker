@@ -1,42 +1,31 @@
+use tracker_db;
+
 -- department inserts -----
 INSERT INTO department (name)
-VALUE ("Sales");
-INSERT INTO department (name)
-VALUE ("Engineering");
-INSERT INTO department (name)
-VALUE ("Finance");
-INSERT INTO department (name)
-VALUE ("Legal");
+VALUES
+('"Sales"'),
+("Engineering"),
+("Finance"),
+("Legal");
 
 -- role inserts -------
 INSERT INTO role (title, salary, department_id)
-VALUE ("Lead Engineer", 150000, 2);
-INSERT INTO role (title, salary, department_id)
-VALUE ("Legal Team Lead", 250000, 4);
-INSERT INTO role (title, salary, department_id)
-VALUE ("Accountant", 125000, 3);
-INSERT INTO role (title, salary, department_id)
-VALUE ("Lead Engineer", 150000, 1);
-INSERT INTO role (title, salary, department_id)
-VALUE ("Salesperson", 80000, 1);
-INSERT INTO role (title, salary, department_id)
-VALUE ("Software Engineer", 120000, 2);
-INSERT INTO role (title, salary, department_id)
-VALUE ("Lawyer", 190000, 4);
+VALUES
+ ("Lead Engineer", 150000, 2),
+ ("Legal Team Lead", 250000, 4),
+ ("Accountant", 125000, 3),
+ ("Lead Engineer", 150000, 1),
+ ("Salesperson", 80000, 1),
+ ("Software Engineer", 120000, 2),
+ ("Lawyer", 190000, 4);
 
 
 -- employee inserts --
 INSERT INTO employee (first_name, last_name, manager_id, role_id)
-VALUE ("Kate", "Jubera", null, 1);
-INSERT INTO employee (first_name, last_name, manager_id, role_id)
-VALUE ("Dom", "Buyck", null, 2);
-INSERT INTO employee (first_name, last_name, manager_id, role_id)
-VALUE ("Tina","Neuse",null,3);
-INSERT INTO employee (first_name, last_name, manager_id, role_id)
-VALUE ("Julie", "Nguyen", 1, 4);
-INSERT INTO employee (first_name, last_name, manager_id, role_id)
-VALUE ("Kaz", "Stringer", 4, 5);
-INSERT INTO employee (first_name, last_name, manager_id, role_id)
-VALUE ("Takeitha", "Brown", 1, 6);
-INSERT INTO employee (first_name, last_name, manager_id, role_id)
-VALUE ("Victor", "Walker", 2, 7);
+ ("Kate", "Jubera", null, 1),
+ ("Dom", "Buyck", null, 2),
+ ("Tina","Neuse",null,3),
+ ("Julie", "Nguyen", 1, 4),
+ ("Kaz", "Stringer", 4, 5),
+ ("Takeitha", "Brown", 1, 6),
+ ("Victor", "Walker", 2, 7),
