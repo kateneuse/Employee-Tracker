@@ -12,4 +12,4 @@ To install, open the integrated terminal and type node server.js
 
 WALKTHROUGH VIDEO:
 
-https://drive.google.com/file/d/1hr6MoRDBOCVSox4iB3yoUIz3M_3f_cjt/view?usp=sharing
+https://drive.google.com/file/d/1h-VJKFtxsBDou1hGKLfFB2b9bq9Mdlze/view?usp=sharing
